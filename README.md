@@ -44,9 +44,9 @@ Sounds easy? Well there were a few challenges and a few different versions BUT h
 - Click on TradeLog under the Third Party Downloads section
 - Select the time period of your trades and click the Run button
 - Save the TradeLog file to the SAME LOCATION as this Python script
-- Download TradeLog-Tradervue-TimezoneConvert.py and requirements.txt
+- Download TradeLog-Tradervue-TimezoneConverter.py and requirements.txt
 - Execute 'pip install -r requirements.txt'
-- Execute the TradeLog-Tradervue-TimezoneConvert.py script
+- Execute the TradeLog-Tradervue-TimezoneConverter.py script
 - You will be prompted to type the name of the city you want to convert the time to (New York, in my example earlier)
 - You will then be prompted to type the name of the city you want to convert the time from (Sydney, in my example earlier)
 - You will be prompted to type the file name of the INPUT file (TLG file exported from broker)
