@@ -31,7 +31,7 @@ def main():
             CITY_FROM = ALLZONES
 
         if CITY_FROM:
-            print("\nThe current date and time in " + CITY_FROM + " is: " + str(datetime.datetime.now(pytz.timezone(CITY_TO))) + ".\nIf the timezone is incorrect, hit CTRL+C and check the timezone list.")
+            print("\nThe current date and time in " + CITY_FROM + " is: " + str(datetime.datetime.now(pytz.timezone(CITY_FROM))) + ".\nIf the timezone is incorrect, hit CTRL+C and check the timezone list.")
             pass
         else:
             raise Exception("\nCannot find the FROM timezone. Maybe try another city nearby?\n")
